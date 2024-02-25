@@ -1,10 +1,12 @@
-<p align="center"><h1>⭐ Unity Skip Splash Screen⭐</h1></p>
- <p align="center">
+﻿**[🇷🇺 Read this in Russian](README_RU.md)**
+
+<h1 align="center">⭐ Unity Skip Splash Screen ⭐</h1>
+<p align="center">
   <a>
     <img alt="Made With Unity" src="https://img.shields.io/badge/made%20with-Unity-57b9d3.svg?logo=Unity">
   </a>
   <a>
-  <img alt="License" src="https://img.shields.io/github/license/RimuruDev/UnitySkipSplashScreen?logo=github">
+    <img alt="License" src="https://img.shields.io/github/license/RimuruDev/UnitySkipSplashScreen?logo=github">
   </a>
   <a>
     <img alt="Last Commit" src="https://img.shields.io/github/last-commit/RimuruDev/UnitySkipSplashScreen?logo=Mapbox&color=orange">
@@ -29,24 +31,22 @@
   </a>
 </p>
 
+This package allows for the quick and easy removal of the Unity Splash Screen at the start of an application. It is suitable for developers who wish to immediately proceed to the content of their application without displaying the initial Unity Splash Screen.
 
+## How to Use
 
-Этот пакет позволяет быстро и легко убрать заставку Unity при запуске приложения. Подходит для разработчиков, желающих сразу перейти к содержанию своего приложения без отображения начального Splash Screen от Unity.
+To use this package, follow these steps:
 
-## Как использовать
+1. Open your project in Unity.
+2. Go to `Window -> Package Manager -> Add package from git URL...`.
+3. Insert the git repository URL: `https://github.com/RimuruDev/UnitySkipSplashScreen.git`.
+4. Click `Add` and wait for the package installation to complete.
 
-Для использования пакета выполните следующие шаги:
+After installation, the package will automatically configure your project to skip the Unity Splash Screen at startup.
 
-1. Откройте ваш проект в Unity.
-2. Перейдите в `Window -> Package Manager -> Add package from git URL...`.
-3. Вставьте ссылку на git-репозиторий: `https://github.com/RimuruDev/UnitySkipSplashScreen.git`.
-4. Нажмите `Add` и дождитесь окончания установки пакета.
+## How It Works
 
-После установки пакет автоматически настроит ваш проект на пропуск заставки Unity при запуске.
+The package contains two main components:
 
-## Как это работает
-
-Пакет содержит два основных компонента:
-
-- `SetSplashScreenBlack`: Этот скрипт работает в редакторе Unity и автоматически настраивает заставку Unity на темный фон с логотипом Unity в стиле "Light on Dark" перед каждой сборкой проекта.
-- `UnitySkipSplashScreen`: Этот скрипт работает в собранном приложении и пропускает заставку Unity при запуске приложения, позволяя пользователю сразу перейти к основному содержанию.
+- `SetSplashScreenBlack`: This script operates within the Unity editor and automatically sets the Unity Splash Screen to a dark background with the Unity logo in "Light on Dark" style before each project build.
+- `UnitySkipSplashScreen`: This script operates in the built application and skips the Unity Splash Screen at startup, allowing the user to immediately proceed to the main content.
