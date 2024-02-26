@@ -19,7 +19,7 @@ using UnityEditor.Build.Reporting;
 
 public sealed class SetSplashScreenBlack : IPreprocessBuildWithReport
 {
-    public int callbackOrder { get; }
+    public int callbackOrder { get { return 0; } }
 
     public void OnPreprocessBuild(BuildReport report)
     {
