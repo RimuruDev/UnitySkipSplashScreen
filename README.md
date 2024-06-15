@@ -31,7 +31,20 @@
   </a>
 </p>
 
+# Unity Skip Splash Screen
+
 This package allows for the quick and easy removal of the Unity Splash Screen at the start of an application. It is suitable for developers who wish to immediately proceed to the content of their application without displaying the initial Unity Splash Screen.
+
+## Supported Platforms
+
+- Android
+- iOS
+- Oculus Quest
+- Pico VR
+- WebGL
+- Windows Standalone
+- Mac Standalone
+- Linux Standalone
 
 ## How to Use
 
@@ -50,5 +63,3 @@ The package contains two main components:
 
 - `SetSplashScreenBlack`: This script operates within the Unity editor and automatically sets the Unity Splash Screen to a dark background with the Unity logo in "Light on Dark" style before each project build.
 - `UnitySkipSplashScreen`: This script operates in the built application and skips the Unity Splash Screen at startup, allowing the user to immediately proceed to the main content.
-
-Old Source -> https://github.com/Jadekylin/UnitySkipSplash
