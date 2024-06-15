@@ -31,8 +31,6 @@
   </a>
 </p>
 
-# Unity Skip Splash Screen
-
 This package allows for the quick and easy removal of the Unity Splash Screen at the start of an application. It is suitable for developers who wish to immediately proceed to the content of their application without displaying the initial Unity Splash Screen.
 
 ## Supported Platforms
