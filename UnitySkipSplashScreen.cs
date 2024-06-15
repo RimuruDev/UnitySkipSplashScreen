@@ -35,8 +35,25 @@ public sealed class UnitySkipSplashScreen
     }
 
 #else
-    private static void AsyncSkip() =>
+    private static void AsyncSkip()
+    {
+#if UNITY_ANDROID || UNITY_IOS || UNITY_STANDALONE || UNITY_WSA
+#if UNITY_XR
+        if (UnityEngine.XR.Management.XRGeneralSettings.Instance.Manager.isInitializationComplete)
+        {
+            SplashScreen.Stop(SplashScreen.StopBehavior.StopImmediate);
+        }
+        else
+        {
+            UnityEngine.XR.Management.XRGeneralSettings.Instance.Manager.InitializeLoader();
+            UnityEngine.XR.Management.XRGeneralSettings.Instance.Manager.StartSubsystems();
+            SplashScreen.Stop(SplashScreen.StopBehavior.StopImmediate);
+        }
+#else
         SplashScreen.Stop(SplashScreen.StopBehavior.StopImmediate);
+#endif
+#endif
+    }
 #endif
 }
 #endif
