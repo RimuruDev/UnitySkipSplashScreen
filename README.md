@@ -15,9 +15,6 @@
     <img alt="Repo Size" src="https://img.shields.io/github/repo-size/RimuruDev/UnitySkipSplashScreen?logo=VirtualBox">
   </a>
   <a>
-    <img alt="Downloads" src="https://img.shields.io/github/downloads/RimuruDev/UnitySkipSplashScreen/total?color=brightgreen">
-  </a>
-  <a>
     <img alt="Last Release" src="https://img.shields.io/github/v/release/RimuruDev/UnitySkipSplashScreen?include_prereleases&logo=Dropbox&color=yellow">
   </a>
   <a>
