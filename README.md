@@ -34,7 +34,7 @@ This package allows for the quick and easy removal of the Unity Splash Screen at
 
 - Android
 - iOS
-- ~~Oculus Quest~~
+- Oculus Quest
 - ~~Pico VR~~
 - WebGL
 - Windows Standalone
